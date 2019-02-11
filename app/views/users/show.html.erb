@@ -1,13 +1,18 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Email:</strong>
-  <%= @user.email %>
+  <strong>Start date:</strong>
+  <%= @user.start_date %>
 </p>
 
 <p>
-  <strong>Password:</strong>
-  <%= @user.password %>
+  <strong>Duration:</strong>
+  <%= @user.duration %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @user.title %>
 </p>
 
 <p>
@@ -16,13 +21,13 @@
 </p>
 
 <p>
-  <strong>First name:</strong>
-  <%= @user.first_name %>
+  <strong>Price:</strong>
+  <%= @user.price %>
 </p>
 
 <p>
-  <strong>Last name:</strong>
-  <%= @user.last_name %>
+  <strong>Location:</strong>
+  <%= @user.location %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |

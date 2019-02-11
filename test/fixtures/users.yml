@@ -1,15 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  email: MyString
-  password: MyString
+  start_date: 2019-02-11 11:54:14
+  duration: 1
+  title: MyString
   description: MyText
-  first_name: MyString
-  last_name: MyString
+  price: 1
+  location: MyString
 
 two:
-  email: MyString
-  password: MyString
+  start_date: 2019-02-11 11:54:14
+  duration: 1
+  title: MyString
   description: MyText
-  first_name: MyString
-  last_name: MyString
+  price: 1
+  location: MyString

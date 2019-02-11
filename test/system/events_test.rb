@@ -20,6 +20,7 @@ class EventsTest < ApplicationSystemTestCase
     fill_in "Price", with: @event.price
     fill_in "Start date", with: @event.start_date
     fill_in "Title", with: @event.title
+    fill_in "User", with: @event.user_id
     click_on "Create Event"
 
     assert_text "Event was successfully created"
@@ -36,6 +37,7 @@ class EventsTest < ApplicationSystemTestCase
     fill_in "Price", with: @event.price
     fill_in "Start date", with: @event.start_date
     fill_in "Title", with: @event.title
+    fill_in "User", with: @event.user_id
     click_on "Update Event"
 
     assert_text "Event was successfully updated"
